@@ -1,6 +1,6 @@
 <!--
     DATE: 11/15/2021
-    NAME: Takahiro Suzuki
+    NAME: Takahiro Suzuki, Brandon Micek
     This is an index page for company welcome webpage.
  -->
 <!DOCTYPE html>
@@ -20,6 +20,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
         type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -36,9 +40,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#portfolio">Employee Guidelines</a></li>
+                            href="#guideline">Employee Guidelines</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About us</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#about">Members</a></li>
+                            href="#member">Members</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="reference.html">Reference</a></li>
                 </ul>
@@ -55,7 +60,7 @@
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon">
-                    <p class="masthead-subheading font-weight-light mb-0">Where You Will be Ethical</p>
+                    <p class="masthead-subheading font-weight-light mb-0">Where You Will be Ethical!</p>
                 </div>
                 <div class="divider-custom-line"></div>
             </div>
@@ -65,10 +70,10 @@
         </div>
     </header>
 
-    <!-- Member Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <!-- Employee Guideline Section-->
+    <section class="page-section portfolio" id="guideline">
         <div class="container">
-            <!-- Member Section Heading-->
+            <!-- Employee Guideline Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Employee Guidelines</h2>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
@@ -76,10 +81,10 @@
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
-            <!-- Member Grid Items-->
+            <!-- Employee Guideline Grid Items-->
             <div class="row justify-content-center">
 
-                <!-- Member Item 1-->
+                <!-- Employee Guideline Item 1-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                         <div
@@ -87,19 +92,8 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
-                    </div>
-                </div>
-
-                <!-- test section 1 -->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                        <!-- <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                        <img class="img-fluid" src="images/img_ACM_edited.jpg" alt="..." />
                     </div>
                 </div>
 
@@ -166,10 +160,32 @@
         </div>
     </section>
 
-    <!-- Reference Section-->
     <section class="page-section bg-primary text-white mb-0" id="about">
         <div class="container">
-            <!-- Reference Section Heading-->
+            <!-- Members Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">About us</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Member Contact Info -->
+            <div class="row transback text-start">
+                <p><br></p><!-- for spacing -->
+                <div class="col-md-1 ms-auto"></div> <!-- left padding -->
+                <div class="col-md-10 ms-auto">
+                    <p class="lead">We are (ABC Corporation?). We formed this company in order to provide onboarding services to startup IT companies on industry standards and best practices of IT Ethics and Security. We feel that we can best serve our clients by providing compact and easy to read ethical and security best practices. With our services, our clients and their employees will have 24/7 access to this information, greatly reducing time and cost to training employees.</p>
+                </div>
+                <div class="col-md-1 ms-auto"></div><!-- right padding -->
+                <p><br></p><!-- for spacing -->
+        </div>
+    </section>
+
+    <!-- Members Section-->
+    <section class="page-section bg-primary text-white mb-0" id="member">
+        <div class="container">
+            <!-- Members Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-white">Members</h2>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
@@ -178,16 +194,23 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Member Contact Info -->
-            <div class="row transback">
-                <div class="col-md-4 ms-auto">
-                    <p class="lead">Takahiro Suzuki<br>Roberto Saavedra</p>
+            <div class="row text-sm-start transback">
+                <p><br></p><!-- top padding -->
+                <div class="col-md-1 ms-auto"></div><!-- left padding -->
+                <div class="col-md-10 ms-auto">
+                    <hr><!-- line separator -->
+                    <p class="member"><b>Andrew Harris</b> -- <i class="email">email@unomaha.edu</i><br>&emsp;<i class="role">IT Security Chief</i></p>
+                    <hr><!-- line separator -->
+                    <p class="member"><b>Camden Murphy</b> -- <i class="email">email@unomaha.edu</i><br>&emsp;<i class="role">IT Security Member(?)</i></p>
+                    <hr><!-- line separator -->
+                    <p class="member"><b>Roberto Saaverdra</b> -- <i class="email">email@unomaha.edu</i><br>&emsp;<i class="role">Writer(?)</i></p>
+                    <hr><!-- line separator -->
+                    <p class="member"><b>Brandon Micek</b> -- <i class="email">email@unomaha.edu</i><br>&emsp;<i class="role">Web Developer</i></p>
+                    <hr><!-- line separator -->
+                    <p class="member"><b>Takahiro Suzuki</b> -- <i class="email">email@unomaha.edu</i><br>&emsp;<i class="role">Web Developer</i></p>
                 </div>
-                <div class="col-md-4 me-auto">
-                    <p class="lead">Brandon Micek<br>Camden Murphy</p>
-                </div>
-                <div class="col-lg-12 ms-auto">
-                    <p class="lead">Andrew Harris</p>
-                </div>
+                <div class="col-md-1 ms-auto"></div><!-- right padding -->
+                <p><br></p><!--bottom pading -->
             </div>
         </div>
     </section>
@@ -210,7 +233,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Member Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ACM</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -220,9 +243,7 @@
                                 <!-- Member Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
                                 <!-- Member Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                <p class="mb-4">ACM Code of Conduct dictates that we will be…
                                 </p>
                                 <button class="btn btn-primary" href="#" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
